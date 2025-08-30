@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: rgb(0, 0, 0);
+  color: rgb(190, 187, 183);
+  font-family: Arial, sans-serif;
+}
+
+.contenedor {
+  display: flex;           /* organiza los hijos en fila */
+  flex-wrap: wrap;         /* permite que los hijos bajen de línea si no caben */
+  gap: 10px;               /* espacio entre cajas */
+  justify-content: center; /* centra las cajas horizontalmente */
+  padding: 10px;
+  width: 96vw;              /* 100% del ancho de la ventana */
+  height: 10vh;  
+  color:rgb(190, 187, 183);
+
+ 
+}
+.caja {
+  padding: 20px;
+  flex: 1 1px;        /* ancho flexible: crece, encoge, mínimo 250px */
+  text-align: center;
+  overflow: hidden; 
+  align-items: center;        /* centra verticalmente el texto */
+  justify-content: center;
+  border-radius:05%; 
+  border-left: 3px solid #34e61c;
+  background-color: rgba(17, 17, 17, 0.979);
+}
+
+
+.derecha {
+    border-left: 3px solid #34e61c;
+    background-color: rgba(17, 17, 17, 0.979);
+    
+  
+}
+
+.navbar {
+  width: 106%;
+  background: linear-gradient(135deg, var(--rosa-medio), var(--rosa-fuerte));
+  padding: 12px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  font-size: 1.6rem;
+  font-weight: 500;         
+  letter-spacing: 1px;      
+  border-bottom: 2px solid rgba(72, 209, 30, 0.4);
+  box-shadow: 0 3px 12px rgba(166, 58, 95, 0.15); 
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar h1 {
+  margin: 0;
+  font-size: 1.6rem;
+  font-weight: 600;
+} 
+h1 {
+    text-align: center;
+    margin: 20px 0;
+    color: #1cee09
+}
+
+
+.kev {
+    width: 220px;      
+    height: 220px;    
+    border-radius:100%; 
+    object-fit: cover;
+    box-shadow: 0 4px 10px rgba(82, 77, 77, 0);
+}
+.informacion {
+    text-align: left;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    background-color: rgba(201, 4, 4, 0);
+
+}
+
+hr {
+    border: 0; 
+    height: 4px; 
+    background-color: hsl(110, 64%, 57%); 
+    width: 80%; 
+    margin: 20px auto; 
+} 
+
+.header-links {
+  display: flex; /* Hace que los elementos estén en la misma fila */
+  align-items: center; /* Alinea verticalmente los elementos al centro */
+  gap: 20px; /* Espacio entre los elementos */
+}
+
+/* Estilo del logo */
+.logo img {
+  width: 50px; /* Ajusta el tamaño del logo */
+  height: auto;
+}
+
+/* Estilo para los otros enlaces */
+.enlace {
+  text-decoration: none;
+  color: #684848; /* Cambia el color */
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.enlace:hover {
+  color: #FF5733; /* Cambia el color al pasar el cursor */
+}
+
+/* Estilo para el ícono */
+.icono img {
+  width: 40px; /* Ajusta el tamaño del ícono */
+  height: auto;
+  transition: opacity 0.3s ease;
+}
+
+.icono img:hover {
+  opacity: 0.8; /* Efecto al pasar el cursor */
+}
+
+#Biblioteca{
+  color:rgb(240, 255, 255);
+}
+
+#academica{
+  background-color: rgba(143, 38, 38, 0);
+}
+
+
