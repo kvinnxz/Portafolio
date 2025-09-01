@@ -30,7 +30,7 @@ body {
 
 /* Estilo para enlaces con clase "link" */
 .link {
-  color: aliceblue;
+  color: rgb(160, 191, 219);
 }
 
 /* Contenedor principal con flexbox */
